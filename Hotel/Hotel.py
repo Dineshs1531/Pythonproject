@@ -69,83 +69,13 @@ def Indian_foods():
                                 return n
                             else:
                                 print("please enter valid information")
-                    # def indian_continue_wrong():
-                    #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-                    #     while con not in ['y','n']:
-                    #         print("not in ",con)
-                    #         break
-                    #     if con.lower() == 'y':
-                    #         pass
-                    #     elif con.lower() == 'n':
-                    #         n = 0
 
-                    # if con.lower() in ['y', 'n']:
-                    #     indian_continue_correct()
-                    # else:
-                    #     print("please enter valid information")
-                    #     indian_continue_wrong()
                 n = indian_food_continue(n)
                 if n == 0:
                     break
 
             else:
                 print("Please enter valid information")
-            # print(choice)
-            # print(indian[choice])
-            # temp_amount=indian[choice][1]*count
-            # print("amount : ",temp_amount)
-
-            # if indian[choice][0] not in total:
-            #     print(total)
-            #     total[indian[choice][0]] = [count, indian[choice][1], indian[choice][1] * count]
-            #     print(total)
-            # else:
-            #     update_count = total[indian[choice][0]][0] + count
-            #     old_amount = total[indian[choice][0]][2]
-            #     update_amount = old_amount + (indian[choice][1] * count)
-
-                # udpate_amount=total[indian[choice]]
-                # total[indian[choice][0]] = [update_count, indian[choice][1], update_amount]
-                # print("new total : ", total)
-
-            # def indian_food_continue(n):
-            #     rs = 1
-            #     while rs != 0:
-            #         restart = True
-            #         if restart == True:
-            #             def indian_continue_correct(con):
-            #                 if con.lower() == 'y':
-            #                     pass
-            #                 elif con.lower() == 'n':
-            #                     return 0
-            #
-            #             con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #             if con in ['y', 'n']:
-            #                 n = indian_continue_correct(con)
-            #                 restart = False
-            #                 return n
-            #             else:
-            #                 print("please enter valid information")
-            #
-            #     # def indian_continue_wrong():
-            #     #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #     #     while con not in ['y','n']:
-            #     #         print("not in ",con)
-            #     #         break
-            #     #     if con.lower() == 'y':
-            #     #         pass
-            #     #     elif con.lower() == 'n':
-            #     #         n = 0
-            #
-            #     # if con.lower() in ['y', 'n']:
-            #     #     indian_continue_correct()
-            #     # else:
-            #     #     print("please enter valid information")
-            #     #     indian_continue_wrong()
-            #
-            # n = indian_food_continue(n)
-            # if n == 0:
-            #     break
 
         else:
             # print("break")
@@ -161,9 +91,7 @@ def Italian_foods():
             for i in italian:
                 print(i, italian[i][0])
 
-            # print("-------------------------\nIndian Non-Veg Food items\n")
-            # for i in indian_food_items_N_veg:
-            #     print(i, indian_food_items_N_veg[i][0])
+
             choice = input("enter the italian any one food : ")
 
 
@@ -205,83 +133,14 @@ def Italian_foods():
                                 return n
                             else:
                                 print("please enter valid information")
-                    # def indian_continue_wrong():
-                    #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-                    #     while con not in ['y','n']:
-                    #         print("not in ",con)
-                    #         break
-                    #     if con.lower() == 'y':
-                    #         pass
-                    #     elif con.lower() == 'n':
-                    #         n = 0
 
-                    # if con.lower() in ['y', 'n']:
-                    #     indian_continue_correct()
-                    # else:
-                    #     print("please enter valid information")
-                    #     indian_continue_wrong()
+
                 n = italian_food_continue(n)
                 if n == 0:
                     break
 
             else:
                 print("Please enter valid information")
-            # print(choice)
-            # print(indian[choice])
-            # temp_amount=indian[choice][1]*count
-            # print("amount : ",temp_amount)
-
-            # if indian[choice][0] not in total:
-            #     print(total)
-            #     total[indian[choice][0]] = [count, indian[choice][1], indian[choice][1] * count]
-            #     print(total)
-            # else:
-            #     update_count = total[indian[choice][0]][0] + count
-            #     old_amount = total[indian[choice][0]][2]
-            #     update_amount = old_amount + (indian[choice][1] * count)
-
-                # udpate_amount=total[indian[choice]]
-                # total[indian[choice][0]] = [update_count, indian[choice][1], update_amount]
-                # print("new total : ", total)
-
-            # def indian_food_continue(n):
-            #     rs = 1
-            #     while rs != 0:
-            #         restart = True
-            #         if restart == True:
-            #             def indian_continue_correct(con):
-            #                 if con.lower() == 'y':
-            #                     pass
-            #                 elif con.lower() == 'n':
-            #                     return 0
-            #
-            #             con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #             if con in ['y', 'n']:
-            #                 n = indian_continue_correct(con)
-            #                 restart = False
-            #                 return n
-            #             else:
-            #                 print("please enter valid information")
-            #
-            #     # def indian_continue_wrong():
-            #     #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #     #     while con not in ['y','n']:
-            #     #         print("not in ",con)
-            #     #         break
-            #     #     if con.lower() == 'y':
-            #     #         pass
-            #     #     elif con.lower() == 'n':
-            #     #         n = 0
-            #
-            #     # if con.lower() in ['y', 'n']:
-            #     #     indian_continue_correct()
-            #     # else:
-            #     #     print("please enter valid information")
-            #     #     indian_continue_wrong()
-            #
-            # n = indian_food_continue(n)
-            # if n == 0:
-            #     break
 
         else:
             print("break")
@@ -338,83 +197,13 @@ def Chinese_foods():
                                 return n
                             else:
                                 print("please enter valid information")
-                    # def indian_continue_wrong():
-                    #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-                    #     while con not in ['y','n']:
-                    #         print("not in ",con)
-                    #         break
-                    #     if con.lower() == 'y':
-                    #         pass
-                    #     elif con.lower() == 'n':
-                    #         n = 0
 
-                    # if con.lower() in ['y', 'n']:
-                    #     indian_continue_correct()
-                    # else:
-                    #     print("please enter valid information")
-                    #     indian_continue_wrong()
                 n = chinese_food_continue(n)
                 if n == 0:
                     break
 
             else:
                 print("Please enter valid information")
-            # print(choice)
-            # print(indian[choice])
-            # temp_amount=indian[choice][1]*count
-            # print("amount : ",temp_amount)
-
-            # if indian[choice][0] not in total:
-            #     print(total)
-            #     total[indian[choice][0]] = [count, indian[choice][1], indian[choice][1] * count]
-            #     print(total)
-            # else:
-            #     update_count = total[indian[choice][0]][0] + count
-            #     old_amount = total[indian[choice][0]][2]
-            #     update_amount = old_amount + (indian[choice][1] * count)
-
-                # udpate_amount=total[indian[choice]]
-                # total[indian[choice][0]] = [update_count, indian[choice][1], update_amount]
-                # print("new total : ", total)
-
-            # def indian_food_continue(n):
-            #     rs = 1
-            #     while rs != 0:
-            #         restart = True
-            #         if restart == True:
-            #             def indian_continue_correct(con):
-            #                 if con.lower() == 'y':
-            #                     pass
-            #                 elif con.lower() == 'n':
-            #                     return 0
-            #
-            #             con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #             if con in ['y', 'n']:
-            #                 n = indian_continue_correct(con)
-            #                 restart = False
-            #                 return n
-            #             else:
-            #                 print("please enter valid information")
-            #
-            #     # def indian_continue_wrong():
-            #     #     con = input("Do you want to you continue to order indian food (Y/N) : ").lower()
-            #     #     while con not in ['y','n']:
-            #     #         print("not in ",con)
-            #     #         break
-            #     #     if con.lower() == 'y':
-            #     #         pass
-            #     #     elif con.lower() == 'n':
-            #     #         n = 0
-            #
-            #     # if con.lower() in ['y', 'n']:
-            #     #     indian_continue_correct()
-            #     # else:
-            #     #     print("please enter valid information")
-            #     #     indian_continue_wrong()
-            #
-            # n = indian_food_continue(n)
-            # if n == 0:
-            #     break
 
         else:
             print("break")
