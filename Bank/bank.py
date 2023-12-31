@@ -1,10 +1,9 @@
-# import mysql.connector
-# from mysql.connector import Error
+
 from existing_account import *
-# import random
+
 import re
 from datetime import datetime,date
-#pip install bcrypt
+
 
 import bcrypt
 
@@ -18,16 +17,7 @@ password = 'Dinesh1531@'
 # Databasename
 database_name = 'bank'
 
-# create database in mysql
-
-
-
-
 # creating table as user details from  BANK DATABASE
-
-
-
-
 
 # query for creating the table in Bank database
 
@@ -60,13 +50,6 @@ connection = create_server_connection("localhost", "root", password, database_na
 # creating table using python that query executed
 # execute_query(connection,create_user_details)
 # execute_query(connection,create_credit_card_details,message="created")
-
-
-
-# ---------------------------------   READ QUERY EXECUTED ---------------------
-
-
-
 
 """" ----------------------------------- SQL CONNECTING END ------------------------------------------ """
 
